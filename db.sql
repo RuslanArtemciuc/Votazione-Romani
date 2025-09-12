@@ -6,6 +6,7 @@ CREATE DATABASE IF NOT EXISTS votazione_romani
   COLLATE utf8mb4_general_ci;
 USE votazione_romani;
 
+-- Dovrebbe essere al plurale ma va bene così :)
 CREATE TABLE indirizzo (
   id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
   nome VARCHAR(40) NOT NULL
