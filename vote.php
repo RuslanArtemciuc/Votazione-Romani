@@ -426,7 +426,7 @@
 
             // Funzione asincrona per recupare il numero di posti occupati per ciascuna opzione
             async function fetchPostiOccupati() {
-                // Try and catch. Per una vedere cosa sono guarda config.php
+                // Try and catch. Per vedere cosa sono guarda config.php
                 try {
                     // faccio una chiamata al file admin/get_posti.php con l'id del sondaggio come parametro
                     const response = await fetch('admin/get_posti.php?id=<?php echo $sondaggio["id"] ?>');
